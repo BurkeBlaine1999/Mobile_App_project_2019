@@ -1,0 +1,31 @@
+<!--
+  Generated template for the CalibratePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title class="head" >calibrate</ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <ion-content class="body" padding>
+      <ion-item>
+          <ion-input [(ngModel)]="date"  type="Date"  ></ion-input>
+      </ion-item>
+        <ion-item>
+          <ion-label >Time</ion-label>
+          <ion-input [(ngModel)]="time"  type="Time" ></ion-input>
+        </ion-item>
+        <ion-item>
+        <ion-label floating  >Chlorine</ion-label>
+        <ion-input [(ngModel)]="Cl" type="number" ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating  >Ph</ion-label>
+          <ion-input [(ngModel)]="Ph" type="number" ></ion-input>
+        </ion-item>
+        <button  class="butt" ion-button block round (click)="SaveData()">Submit</button>
+      </ion-content>
+
