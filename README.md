@@ -6,6 +6,8 @@
 
 2) Launch using suited software! ( Can be seen Below!)
 
+View The Wiki Page for more datail!
+
 ### Requirements
 
 **[Microsoft Visual Studio Code](https://code.visualstudio.com/)** - The software used to create the programme
@@ -22,4 +24,3 @@
 
 ## Acknowledgments
  **[Ionic framework](https://ionicframework.com/docs/v1/)**  - Contains useful Information that helped develop my App
-
