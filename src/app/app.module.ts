@@ -13,6 +13,7 @@ import {ResultsPage} from '../pages/results/results';
 import {TabsPage} from '../pages/tabs/tabs';
 import {CalibratePage} from '../pages/calibrate/calibrate';
 import {AppInfoPage} from '../pages/app-info/app-info';
+import { DataServiceProvider } from '../providers/data-service/data-service';
 
 //+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
@@ -43,7 +44,8 @@ import {AppInfoPage} from '../pages/app-info/app-info';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    DataServiceProvider
   ]
 })
 export class AppModule {}
