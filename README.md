@@ -1,14 +1,26 @@
-# Mobile Application Project 
-A simple Pool tester app that displays useful information regarding your Ph and Chlorine Results.
+# Mobile Applications Project
 
-# Built With
-Visual Studio code https://code.visualstudio.com/
+## Getting Started
 
-# Ionic version
-Ionic 3.2 https://ionicframework.com/
+1) Download and Unzip the file in your desktop
 
-# Authors
-Blaine Burke
+2) Launch using suited software! ( Can be seen Below!)
 
-Acknowledgments
-https://ionicframework.com/docs/v1/
+### Requirements
+
+**[Microsoft Visual Studio Code](https://code.visualstudio.com/)** - The software used to create the programme
+
+## Versioning
+
+### Version 1.0
+
+### Ionic version
+**[Ionic 3.2](https://ionicframework.com/)** 
+
+## Authors
+
+* **[Blaine Burke](https://github.com/BurkeBlaine1999)** - *Creator*  
+
+## Acknowledgments
+ **[Ionic frameWork](https://ionicframework.com/docs/v1/)**  - Contains useful Information that helped develop my App
+
