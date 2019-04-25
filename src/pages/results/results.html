@@ -6,8 +6,7 @@
 </ion-header>
 
 <ion-content padding class="backDrop">
-    <button class="butt" round ion-button (click)="refresh()" >Refresh</button>
-
+    <button class="butt" round ion-button (click)="refresh()"  >Refresh</button>
     <ion-scroll class="resultBox" scrollY="true" >
       <ion-grid >
         <ion-row>
@@ -27,81 +26,23 @@
 
         <ion-row>
         <ion-col>
-            {{va1}}
+            {{date}}
           </ion-col>
           <ion-col>
-              {{va2}}
+              {{time}}
           </ion-col>
           <ion-col>
-              {{va3}}
+              {{Chlorine}}
           </ion-col>
           <ion-col>
-              {{va4}}
+              {{Phenol}}
           </ion-col>
         </ion-row>
-  
-        <ion-row>
-            <ion-col>
-                {{va5}}
-              </ion-col>
-              <ion-col>
-                  {{va6}}
-              </ion-col>
-              <ion-col>
-                  {{va7}}
-              </ion-col>
-              <ion-col>
-                  {{va8}}
-              </ion-col>
-            </ion-row>
-
-            <ion-row>
-                <ion-col>
-                    {{va9}}
-                  </ion-col>
-                  <ion-col>
-                      {{va10}}
-                  </ion-col>
-                  <ion-col>
-                      {{va11}}
-                  </ion-col>
-                  <ion-col>
-                      {{va12}}
-                  </ion-col>
-                </ion-row>
-
-                <ion-row>
-                    <ion-col>
-                        {{va13}}
-                      </ion-col>
-                      <ion-col>
-                          {{va14}}
-                      </ion-col>
-                      <ion-col>
-                          {{va15}}
-                      </ion-col>
-                      <ion-col>
-                          {{va16}}
-                      </ion-col>
-
-                    </ion-row>
-                    <ion-row>
-                        <ion-col>
-                            {{va17}}
-                          </ion-col>
-                          <ion-col>
-                              {{va18}}
-                          </ion-col>
-                          <ion-col>
-                              {{va19}}
-                          </ion-col>
-                          <ion-col>
-                              {{va20}}
-                          </ion-col>
-                        </ion-row>
-
     </ion-grid>
-
     </ion-scroll>
+
+    <p>{{message}}</p>
+    <hr>
+    <p>{{Phmessage}}</p>
 
 </ion-content>
