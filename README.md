@@ -21,5 +21,5 @@
 * **[Blaine Burke](https://github.com/BurkeBlaine1999)** - *Creator*  
 
 ## Acknowledgments
- **[Ionic frameWork](https://ionicframework.com/docs/v1/)**  - Contains useful Information that helped develop my App
+ **[Ionic framework](https://ionicframework.com/docs/v1/)**  - Contains useful Information that helped develop my App
 
