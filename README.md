@@ -14,7 +14,6 @@
 
 ### Version 1.0
 
-### Ionic version
 **[Ionic 3.2](https://ionicframework.com/)** 
 
 ## Authors
