@@ -6,8 +6,10 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class DataServiceProvider {
 
+  //API Base and private API
   private base = "http://api.openweathermap.org/data/2.5/weather?q=Galway&APPID=";
   private Api = "17483171df536b13647eec5650e17bd7";
+  
   constructor(public http: HttpClient) {
     console.log('Hello DataServiceProvider Provider');
   }

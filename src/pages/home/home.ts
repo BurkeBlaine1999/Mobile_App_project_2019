@@ -3,10 +3,8 @@ import { NavController } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 import { TabsPage } from '../tabs/tabs';
 import {DataServiceProvider} from '../../providers/data-service/data-service';
-import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {Observable} from 'rxjs';
-import { ResultsPage } from '../results/results';
 
 @Component({
   selector: 'page-home',
@@ -26,6 +24,7 @@ export class HomePage {
       this.loadData();
     }
 
+    //gets information from weather API
     loadData()
     {
       let data:Observable<any>;
@@ -35,7 +34,8 @@ export class HomePage {
           this.weather = result.weather;
         })
     }
-  
+    //==================================
+
   SignIn()
   {
     let alert = this.alertCtrl.create({

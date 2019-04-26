@@ -22,9 +22,4 @@ export class AppInfoPage {
     console.log('ionViewDidLoad AppInfoPage');
   }
 
-  display()
-  {
-  
-  }
-
 }

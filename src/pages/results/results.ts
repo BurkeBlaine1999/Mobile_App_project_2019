@@ -45,35 +45,31 @@ export class ResultsPage {
   {
 
     //Gets values from Calibrate Page
+    //Sets values of Va1 --> va4 and allows them to be visable
       this.storage.get("date").then((val) => {
-       // this.va1 = this.date;
         this.date = val;
         console.log(val);
       });
 
       //Gets values from Calibrate Page
       this.storage.get("timeKey").then((va2) => {
-      //  this.va2 = this.time;
         this.time = va2;
         console.log(va2);
       });
 
       //Gets values from Calibrate Page
       this.storage.get("ClKey").then((va3) => {
-      //  this.va3 = this.Chlorine;
         this.Chlorine = va3;
         console.log( va3);
       });
 
       //Gets values from Calibrate Page
       this.storage.get("PhKey").then((va4) => {
-      //  this.va4 = this.Phenol;
         this.Phenol = va4;
         console.log(va4);
       });
 
-      //Message--------
-
+      //Chlorine Messages
     
       if(this.Chlorine > 1 && this.Chlorine < 1.51)
       {
@@ -115,7 +111,7 @@ export class ResultsPage {
           
       }
 
- /////////////////////////
+ //Ph Messages 
  
  if(this.Phenol > 7.2 && this.Phenol < 7.8)
  {
